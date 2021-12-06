@@ -4,4 +4,14 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Models\DTO\" />
+    <None Remove="Models\Repository\" />
+    <None Remove="Models\Entities\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\DTO\" />
+    <Folder Include="Models\Repository\" />
+    <Folder Include="Models\Entities\" />
+  </ItemGroup>
 </Project>
